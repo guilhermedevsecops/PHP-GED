@@ -1,0 +1,56 @@
+.geral{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 50px;
+    
+}
+
+.container-1 > div{
+    flex: 1 1 350px;
+    margin:20px;
+}
+
+div.container-1{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 350px;
+    height: 400px;
+    border: 1px solid black;
+    background: white;
+}
+
+div.container-1 h1{
+    text-align: center;
+    background:black;
+    color: white;
+}
+
+figure{
+    width:97%;
+    margin:5px;
+    height: 240px;
+    background:blue;
+    
+}
+
+.icone span{
+    font-size: 40px;
+}
+
+
+
+form{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form input{
+    margin-top: 20px;
+}
+
+input .enviar{
+    background: black;
+    color:white;
+}

@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/******************************** INICIO HEAD **************************/
+
+header{
+    display:flex;
+    flex-direction: column;
+    background: black;
+}
+
+header img{
+    max-width: 100%;
+    display:block;
+
+}
+
+header nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.logo{
+    color: white;
+}
+
+.logo h1{
+    display: block;
+}
+
+nav ul{
+    list-style-type: none;
+    display:block;
+    
+}
+
+
+
+nav li{
+    display: inline;
+    margin: 5px;
+    border-left:1px solid white;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.menu{
+    display: block;
+}
+
+.mobille{
+    display:none;
+}
+
+
+.logo span {
+    display:none;
+}
+
+
+footer{
+    width:100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+@media (max-width:780px){
+    header{
+        flex-direction: column-reverse;
+        width:100%;
+    }
+
+    nav{
+        flex-direction: column;
+        width: 95%;
+        
+        
+    }
+    .logo{
+        width: 100%;
+    }
+
+    .logo h1{
+        display: none;
+    }
+
+    .logo span{
+        display: block;
+        border: 2px white solid;
+        font-size: 40px;
+        width: 40px;
+    }
+
+    .logo span:hover{
+        cursor:pointer;
+    }
+
+    .menu{
+        width: 100%;
+        display: block;
+    }
+
+    .menu ul{
+        text-align: center;
+        
+    }
+
+    .menu li{
+        display:block;
+        border:2px solid white;
+        margin:0;
+        font-size: 1.5rem;
+    
+    }
+
+    
+}/**
+
+
+
+/******************************** FIM HEAD **************************/

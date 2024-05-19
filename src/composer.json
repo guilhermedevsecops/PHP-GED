@@ -1,0 +1,20 @@
+{
+    "name": "ged/guilherme",
+    "description": "GED desenvolvido para fins de apresenta\u0000\u0000o de portif\u0000lio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Henrique de Sousa Jesus",
+            "email": "guilherme26h@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"../app/",
+            "Src\\":"../src/"
+        }
+    }
+}
